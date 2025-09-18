@@ -7,13 +7,12 @@
 
 # defina as variáveis aqui
 
-x=1
-y=2
-a=x
-b=y
-c=3
-d=4
-z=5
+a=41
+b=32
+c=23
+z=14
+x=a
+y=b
 
 #end_inputs
 
