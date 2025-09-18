@@ -13,13 +13,14 @@ a=x
 b=y
 c=3
 d=4
+z=5
 
 #end_inputs
 
 
 #os prints vão a partir daqui
 
-- print("{} e {} sao {} e {}".format("x, y, a, b"))
-- print("Total: {} + {}".format("x, y"))
-- print("{}, {}, {}, são números inteiros".format("a, b, c"))
-- print("{}, + 0 =".format("z"))
+- print("{} e {} sao {} e {}".format(x,y,a,b))
+- print("Total: {} + {}".format(x,y))
+- print("{} {} {} são números inteiros".format(a,b,c))
+- print("{} + 0 = {}".format(z,z+0))
