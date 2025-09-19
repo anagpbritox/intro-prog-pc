@@ -9,11 +9,6 @@ num6 = 6
 num4 = 4
 num20 = 20
 
-# As variáveis de entrada (os numeros, neste caso) deverão ser definidos nessa área 
-# entre #begin_inputs e #end_inputs.
-
-# O restante do código deve estar após o #end_inputs
-
 #end_inputs
 
 soma = num6 + num4
