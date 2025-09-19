@@ -5,8 +5,8 @@
 
 #begin_inputs
 
-num1 = 2
-num2 = 2
+num1 = int(input("Digite o primeiro numero: "))
+num2 = int(input("Digite o primeiro numero: "))
 
 #end_inputs
 	
