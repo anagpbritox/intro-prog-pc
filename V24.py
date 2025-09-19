@@ -5,17 +5,17 @@
 
 #begin_inputs
 
-valor_compra = int(input("Digite o valor da compra: "))
+valor_da_compra = int(input("Digite o valor da compra: "))
 
 #end_inputs
 
-à_vista = valor_compra * 0.09
+desconto_à_vista = valor_da_compra * 0.09
 
-parcelado_5 = valor_compra / 5
+desconto_parcelado_5 = valor_da_compra / 5
 
-total_juros = valor_compra * 1.17
-parcelado_10 = total_juros / 10
+total_juros = valor_da_compra * 1.17
+desconto_parcelado_10 = total_juros / 10
 
-print("{}".format(valor_compra - à_vista))
-print("{}".format(parcelado_5))
-print("{}".format(round(parcelado_10, 2)))
+print("{}".format(valor_da_compra - desconto_à_vista))
+print("{}".format(desconto_parcelado_5))
+print("{}".format(round(desconto_parcelado_10, 2)))
