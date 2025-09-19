@@ -5,9 +5,9 @@
 
 #begin_inputs
 
-a = int(input("Digite a sua primeira nota:"))
-b = int(input("Digite a sua segunda nota:"))
-c = int(input("Digite a sua terceira nota:"))
+a = int(input("Digite a sua primeira nota: "))
+b = int(input("Digite a sua segunda nota: "))
+c = int(input("Digite a sua terceira nota: "))
 
 #end_inputs
 
